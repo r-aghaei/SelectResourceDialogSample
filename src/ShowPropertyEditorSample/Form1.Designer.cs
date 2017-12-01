@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.myControl1 = new SelectResourceDialogSample.MyControl();
+            this.myControl1 = new ShowPropertyEditorSample.MyControl();
             this.SuspendLayout();
             // 
             // myControl1
