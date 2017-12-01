@@ -10,6 +10,6 @@ To do so, you can find the internal `EditorServiceContext` which is in `System.D
         System.Reflection.BindingFlags.Public);
     editValue.Invoke(null, new object[] { this, this.Component, "MyProperty" });
     
-    In the example, I've created a user control called `MyControl` which has a `MyControlDesigner` as its designer. 
-    The designer has a verb which you can see at design time. If you drop an instance of `MyControl` on form, then using the designer action pane or right click on control, you can see `Edit MyProperty` command.
-    By clicking on the command, the editor for `MyProperty` will be shown.
+In the example, I've created a user control called `MyControl` which has a `MyControlDesigner` as its designer. 
+The designer has a verb which you can see at design time. If you drop an instance of `MyControl` on form, then using the designer action pane or right click on control, you can see `Edit MyProperty` command.
+By clicking on the command, the editor for `MyProperty` will be shown.
