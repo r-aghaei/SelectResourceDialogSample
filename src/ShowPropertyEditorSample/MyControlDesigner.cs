@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms.Design;
 
-namespace SelectResourceDialogSample
+namespace ShowPropertyEditorSample
 {
     public class MyControlDesigner : ControlDesigner
     {

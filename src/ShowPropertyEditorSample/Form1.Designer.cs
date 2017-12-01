@@ -1,4 +1,4 @@
-﻿namespace SelectResourceDialogSample
+﻿namespace ShowPropertyEditorSample
 {
     partial class Form1
     {

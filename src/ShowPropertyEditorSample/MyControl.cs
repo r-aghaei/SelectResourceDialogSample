@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SelectResourceDialogSample
+namespace ShowPropertyEditorSample
 {
     [Designer(typeof(MyControlDesigner))]
     public partial class MyControl : UserControl
