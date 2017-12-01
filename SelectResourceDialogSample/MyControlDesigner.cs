@@ -18,7 +18,7 @@ namespace SelectResourceDialogSample
                 if (verbs == null)
                 {
                     verbs = base.Verbs;
-                    verbs.Add(new DesignerVerb("Show Select Resource", (s, e) => ShowSelectResource()));
+                    verbs.Add(new DesignerVerb("Edit MyProperty", (s, e) => ShowSelectResource()));
                 }
                 return verbs;
             }
